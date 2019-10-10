@@ -18,8 +18,8 @@ public class Calculadora {
     public static void main(String[] args) {
         // TODO code application logic here
         JFrameCalculadora calcu = new JFrameCalculadora();
+         calcu.setSize(600, 600);
         calcu.setVisible(true);
-        calcu.setSize(500, 500);
     }
     
 }
